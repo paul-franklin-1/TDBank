@@ -21,6 +21,6 @@ public class BankAccount {
     }
 
     public void accountSummary() {
-        System.out.println("FIX_ME_PLZ");
+        System.out.println("FIX_ME");
     }
 }
