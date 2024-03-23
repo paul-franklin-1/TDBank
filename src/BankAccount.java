@@ -28,7 +28,7 @@ public class BankAccount {
         System.out.println("First Name: " + this.firstName);
     }
     public void getLastName(){
-        System.out.println("Last Name: " + this.lastName;
+        System.out.println("Last Name: " + this.lastName);
     }
     public void getAccountID(){
         System.out.println("Account ID: " + this.accountID);
