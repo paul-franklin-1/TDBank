@@ -11,7 +11,10 @@ public class BankAccount {
         this.balance += deposit;}
 
     public void withdrawal(double withdrawal) {
-        this.balance -= withdrawal;}
+    if ((this.balance - withdrawal)<0){
+        System.out.println("Error: Negative balance not permitted.");}
+    else{this.balance -= withdrawal;}
+    }
     public void setFirstName(String firstName){
         this.firstName = firstName;
     }
@@ -37,4 +40,3 @@ public class BankAccount {
         System.out.println("Name: " + this.firstName + " " + this.lastName + "\nAccount ID: " + this.accountID +
                 "\nBalance: " + this.balance);}
     }
-}
