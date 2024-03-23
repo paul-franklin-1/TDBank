@@ -3,8 +3,8 @@ public class CheckingAccount extends BankAccount{
     public void processWithdrawal(){
         if (this.balance < 0){
             this.balance -= 30;
-            System.out.println("Balance: " + this.balance + ". $30 overdraft fee has been applied.");}
-        else {System.out.println("Balance: " + this.balance);}}
+            System.out.println("You have a negative balance. A $30 overdraft fee has been applied. Current balance: " + this.balance);}
+        else {System.out.println("You do not have a negative balance.");}}
 
     public void displayAccount(){
         System.out.println("Name: " + this.firstName + " " + this.lastName + "\nAccount ID: " + this.accountID +

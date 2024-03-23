@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="751a3f92-77d3-4538-9bce-09e694254715" name="Changes" comment="Starting CheckingAccount file">
+    <list default="true" id="751a3f92-77d3-4538-9bce-09e694254715" name="Changes" comment="Completed all tree classes, tweaking them">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CheckingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheckingAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../BankOfAmerica\exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,7 +85,7 @@
       <updated>1710975655491</updated>
       <workItem from="1710975657223" duration="3983000" />
       <workItem from="1710979683031" duration="2543000" />
-      <workItem from="1711149729801" duration="3339000" />
+      <workItem from="1711149729801" duration="4043000" />
     </task>
     <task id="LOCAL-00001" summary="First save of BankAccount, building methods and attributes">
       <option name="closed" value="true" />
@@ -166,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710982114362</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Completed all tree classes, tweaking them">
+      <option name="closed" value="true" />
+      <created>1711153949569</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711153949570</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +197,7 @@
     <MESSAGE value="First save" />
     <MESSAGE value="Second save" />
     <MESSAGE value="Starting CheckingAccount file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting CheckingAccount file" />
+    <MESSAGE value="Completed all tree classes, tweaking them" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed all tree classes, tweaking them" />
   </component>
 </project>

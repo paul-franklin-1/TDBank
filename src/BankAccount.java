@@ -33,7 +33,6 @@ public class BankAccount {
     public double getBalance() {
         return this.balance;
     }
-
     public void accountSummary() {
         System.out.println("Name: " + this.firstName + " " + this.lastName + "\nAccount ID: " + this.accountID +
                 "\nBalance: " + this.balance);}
