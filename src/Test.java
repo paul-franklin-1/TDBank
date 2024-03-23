@@ -1,10 +1,12 @@
 public class Test {
     public static void main(String[] args) {
-        BankAccount paulAccount = new BankAccount();
+        CheckingAccount paulAccount = new CheckingAccount();
         paulAccount.setFirstName("Paul");
         paulAccount.setLastName("Franklin");
         paulAccount.setAccountID(12345);
         paulAccount.withdrawal(50);
+        paulAccount.processWithdrawal(70);
+        paulAccount.deposit(200);
         paulAccount.accountSummary();
 
 }}
