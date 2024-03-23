@@ -7,11 +7,6 @@ public class BankAccount {
     public BankAccount() {
         this.balance = 0;
     }
-
-    public void NOOOOconstructor() {
-
-    }
-
     public void deposit(double deposit) {
         this.balance += deposit;}
 
@@ -35,7 +30,6 @@ public class BankAccount {
     public int getAccountID(){
         return this.accountID;
     }
-
     public double getBalance() {
         return this.balance;
     }
