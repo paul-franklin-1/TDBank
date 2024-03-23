@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="751a3f92-77d3-4538-9bce-09e694254715" name="Changes" comment="Honing BankAccount, understanding utility of Main method">
+    <list default="true" id="751a3f92-77d3-4538-9bce-09e694254715" name="Changes" comment="Making substantial progress">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CheckingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheckingAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
@@ -110,7 +111,7 @@
       <updated>1710975655491</updated>
       <workItem from="1710975657223" duration="3983000" />
       <workItem from="1710979683031" duration="2543000" />
-      <workItem from="1711149729801" duration="6437000" />
+      <workItem from="1711149729801" duration="8292000" />
     </task>
     <task id="LOCAL-00001" summary="First save of BankAccount, building methods and attributes">
       <option name="closed" value="true" />
@@ -216,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711156358611</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Making substantial progress">
+      <option name="closed" value="true" />
+      <created>1711156845946</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711156845946</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +250,7 @@
     <MESSAGE value="Completed all tree classes, tweaking them" />
     <MESSAGE value="More progress on three java files" />
     <MESSAGE value="Honing BankAccount, understanding utility of Main method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Honing BankAccount, understanding utility of Main method" />
+    <MESSAGE value="Making substantial progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Making substantial progress" />
   </component>
 </project>

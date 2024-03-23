@@ -24,19 +24,19 @@ public class BankAccount {
     public void setAccountID(int accountID){
         this.accountID = accountID;
     }
-    public String getFirstName(){
-        return this.firstName;
+    public void getFirstName(){
+        System.out.println("First Name: " + this.firstName);
     }
-    public String getLastName(){
-        return this.lastName;
+    public void getLastName(){
+        System.out.println("Last Name: " + this.lastName;
     }
-    public int getAccountID(){
-        return this.accountID;
+    public void getAccountID(){
+        System.out.println("Account ID: " + this.accountID);
     }
-    public double getBalance() {
-        return this.balance;
+    public void getBalance() {
+        System.out.println(String.format("Balance: $%.2f", this.balance));
     }
     public void accountSummary() {
-        System.out.println("Name: " + this.firstName + " " + this.lastName + "\nAccount ID: " + this.accountID +
-                "\nBalance: " + this.balance);}
+        System.out.println(String.format("Name: " + this.firstName + " " + this.lastName + "\nAccount ID: " + this.accountID +
+                "\nBalance: $%.2f", this.balance));}
     }

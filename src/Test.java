@@ -4,9 +4,11 @@ public class Test {
         paulAccount.setFirstName("Paul");
         paulAccount.setLastName("Franklin");
         paulAccount.setAccountID(12345);
+        paulAccount.deposit(1000);
         paulAccount.withdrawal(50);
         paulAccount.processWithdrawal(70);
         paulAccount.deposit(200);
-        paulAccount.accountSummary();
+        paulAccount.getBalance();
+        paulAccount.getAccountID();
 
 }}
